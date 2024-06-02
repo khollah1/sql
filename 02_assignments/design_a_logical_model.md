@@ -16,7 +16,7 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
-```
+```There would be privacy implication to these changes because the integrity of customer address would be compromised since these changes would be written to the customer table.
 
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
@@ -24,7 +24,9 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
 Your answer...
-```
+```The schema of Adventure works is an enterprise wide ERD and requires multiple tables for the various department workstreams while bookstore Schema focus on a small bookstore and with limited interactions and tables.
+Also, Adventureworks has multiple Schema while Bookstore has just one Schema.
+Thwew ia a limit to what a small bookstore dayabse can have and the schema size may grow based on need.
 
 # Criteria
 
